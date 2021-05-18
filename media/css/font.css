@@ -1,0 +1,97 @@
+@font-face {
+	font-family: "Visuelt";
+	src: url("../fonts/visuelt/VisueltPro-Thin.ttf");
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Visuelt";
+	src: url("../fonts/visuelt/VisueltPro-ThinItalic.ttf");
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Visuelt";
+	src: url("../fonts/visuelt/VisueltPro-ExtraLight.ttf");
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Visuelt";
+	src: url("../fonts/visuelt/VisueltPro-ExtraLightItalic.ttf");
+	font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Visuelt";
+	src: url("../fonts/visuelt/VisueltPro-Light.ttf");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Visuelt";
+	src: url("../fonts/visuelt/VisueltPro-LightItalic.ttf");
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Visuelt";
+	src: url("../fonts/visuelt/VisueltPro-Regular.ttf");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Visuelt";
+	src: url("../fonts/visuelt/VisueltPro-Italic.ttf");
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Visuelt";
+	src: url("../fonts/visuelt/VisueltPro-Medium.ttf");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Visuelt";
+	src: url("../fonts/visuelt/VisueltPro-MediumItalic.ttf");
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Visuelt";
+	src: url("../fonts/visuelt/VisueltPro-Bold.ttf");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Visuelt";
+	src: url("../fonts/visuelt/VisueltPro-BoldItalic.ttf");
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Visuelt";
+	src: url("../fonts/visuelt/VisueltPro-Black.ttf");
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Visuelt";
+	src: url("../fonts/visuelt/VisueltPro-BlackItalic.ttf");
+	font-weight: 900;
+	font-style: italic;
+}
