@@ -2,10 +2,12 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>IProjects - уникальные плагины для серверов Minecraft</title>
 	<link rel="shortcut icon" href="media/img/logo.png">
 	<link rel="stylesheet" href="media/css/font.css">
 	<link rel="stylesheet" href="media/css/style.css">
+	<link rel="stylesheet" href="media/css/media-queries.css">
 </head>
 <body>
 	
@@ -15,10 +17,12 @@
 	  Header
 	===============
 	-->
-	<header class="header">
+	<header class="header fixed">
 		<div class="container header__inner">
 			<div class="header__logo">IProjects</div>
+			<div id="mobile_nav_open" class="mobile-nav__open"><img width="32" src="media/img/menu.svg" alt=""></div>
 			<nav class="nav">
+				<div id="mobile_nav_close" class="mobile-nav__close"><img width="32" src="media/img/close.svg" alt=""></div>
 				<a href="#skills" class="nav__link">Оценка умений</a>
 				<!-- <a href="#" class="nav__link">Планы на будущее</a> -->
 				<a href="#projects" class="nav__link">Список проектов</a>
@@ -198,8 +202,8 @@
 	<a href="#" class="scroll-up">
 		<img src="media/img/scroll-up.svg" alt="">
 	</a>
-<!-- 
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
+
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 	<script src="media/js/script.js"></script>
 </body>
 </html>

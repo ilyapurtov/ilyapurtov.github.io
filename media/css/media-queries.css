@@ -1,0 +1,128 @@
+.mobile-nav__close {
+	display: none;
+	margin-bottom: 60px;
+}
+
+.mobile-nav__open {
+	display: none;
+}
+
+.nav.opened {
+	right: 0;
+	animation: mobileNav .5s alternate;
+}
+
+/*
+==================
+  Media Queries
+==================
+*/
+@media screen and (max-width: 1264px) {
+	.container {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 960px) {
+	.intro {
+		background-attachment: scroll;
+	}
+
+	.intro__inner {
+		width: 80%;
+	}
+
+	.projects {
+		height: auto;
+	}
+
+	.projects__inner {
+		flex-wrap: wrap;
+	}
+
+	.projects__item {
+		width: 70%;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 600px) {
+
+	.nav {
+		position: fixed;
+		flex-direction: column;
+		right: -100%;
+		top: 0;
+		width: 60vw;
+		height: 100vh;
+		background-color: #fff;
+		padding: 30px;
+	}
+
+	.nav__link {
+		color: #555;
+		margin-bottom: 15px;
+	}
+
+	.mobile-nav__open {
+		display: block;
+	}
+
+	.mobile-nav__close {
+		display: block;
+	}
+
+	.intro {
+		padding-top: 180px;
+		padding-bottom: 80px;
+		height: auto;
+	}
+
+	.intro__inner {
+		width: 100%;
+	}
+
+	.intro__title {
+		font-size: 35px;
+	}
+
+	.intro__buttons {
+		flex-wrap: wrap;
+	}
+
+	.skills__inner {
+		flex-wrap: wrap;
+	}
+
+	.skills__column {
+		width: 100%;
+	}
+
+	.skills__column .progress {
+		max-width: 100%;
+	}
+
+	.projects__item {
+		width: 100%;
+	}
+
+	.about__content {
+		width: 100%;
+	}
+}
+
+
+/*
+==================
+  Animations
+==================
+*/
+@keyframes mobileNav {
+	0% {
+		right: -100%;
+	}
+
+	100% {
+		right: 0;
+	}
+}
