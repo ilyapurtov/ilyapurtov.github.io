@@ -44,6 +44,8 @@ if (window.innerWidth > 960) {
 }
 
 else if (window.innerWidth < 600) {
+	header.classList.add("fixed");
+	
 	const mobileNavOpen = document.getElementById("mobile_nav_open");
 	const mobileNavClose = document.getElementById("mobile_nav_close");
 	const mobileNav = document.querySelector("nav");
