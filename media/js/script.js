@@ -17,7 +17,7 @@ if (window.innerWidth > 960) {
 			scrollUp.setAttribute("style", "visibility: hidden;");
 		}
 
-		if (Math.abs(skills.offsetTop - window.scrollY) < window.innerHeight) {
+		if (Math.abs(skills.offsetTop - window.scrollY + 300) < window.innerHeight) {
 			for (let i = 0; i < progresses.length; i++) {
 			
 				if (!progresses[i].loaded) {
