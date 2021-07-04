@@ -362,6 +362,7 @@ a {
 	padding: 100px 0;
 	display: flex;
 	flex-direction: column;
+	margin-top: 0;
 }
 
 .projects__inner {
