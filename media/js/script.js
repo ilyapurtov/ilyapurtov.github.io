@@ -4,7 +4,7 @@ const scrollUp = document.querySelector(".scroll-up");
 scrollUp.setAttribute("style", "visibility: hidden;");
 
 if (window.innerWidth > 960) {
-	const skills = document.querySelector(".skills");
+	// const skills = document.querySelector(".skills");
 	const intro = document.querySelector(".intro");
 	const progresses = document.querySelectorAll("progress");
 
@@ -17,7 +17,7 @@ if (window.innerWidth > 960) {
 			scrollUp.setAttribute("style", "visibility: hidden;");
 		}
 
-		if (Math.abs(skills.offsetTop - window.scrollY + 300) < window.innerHeight) {
+		/* if (Math.abs(skills.offsetTop - window.scrollY + 300) < window.innerHeight) {
 			for (let i = 0; i < progresses.length; i++) {
 			
 				if (!progresses[i].loaded) {
@@ -35,7 +35,7 @@ if (window.innerWidth > 960) {
 				}
 
 			}
-		}
+		} */
 		
 
 		intro.setAttribute("style", "background-position: 0 -" + window.scrollY / 1.5 + "px");
